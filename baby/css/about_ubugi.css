@@ -1,0 +1,1682 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:14px;
+	color:#434343;
+	line-height:2em;
+	margin-left:auto;
+	margin-right:auto;		
+}
+
+
+
+ul {
+	list-style:none;
+	}
+
+
+p{
+    text-align:center;
+    font-size:18px;
+    padding-top: 10px;	
+}
+	
+@media screen and (max-width:480px), print, tv {
+	
+/*インフォ：質問項目*/	
+
+a:link { color:#434343 !important; }	/*未訪問*/
+a:visited { color:#434343 !important; }/*訪問済*/
+a:hover {color:#cb6d6d !important; }/*ポイント時*/
+a:active {color:#434343 !important; }/*選択中*/
+
+a{
+	text-decoration:none;
+	}
+	
+
+.info{
+	margin:-10px auto 0 auto;
+	text-align:center;
+	font-size:11px;
+	line-height:normal;
+	letter-spacing:-0.6px;
+	background-color:#f8dedd;
+	}	
+	
+
+
+/*産着の基礎知識*/
+
+.pop_q{
+       margin-bottom:20px;
+	}
+	
+	#main{
+    padding-top: 30px;
+    /* background-image: url(../img/about_ubugi/bk_main02.jpg); */
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* margin-top: -50px; */
+	
+	}
+	
+/*質問01*/
+
+#q01{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width:95%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q01:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え01*/
+
+#a01 {
+width:95%;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a01:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a01:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+}
+
+#a01 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	
+	}
+	
+#a01 ul li:nth-child(2){
+	padding:0px 20px 15px 20px;
+	}
+
+
+/*質問02*/
+
+#q02{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width:95%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q02:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+
+
+.back{
+	margin-top:-110px;
+	display: block;
+    margin-left: 500px;
+	}
+/*答え02*/
+
+#a02 {
+width:95%;
+margin-left:10px;
+margin-bottom:50px;
+margin-top: 80px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a02:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a02:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+}
+
+#a02 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left: 10px;
+	}
+	
+#a02 ul li:nth-child(2){
+	padding:0px 20px 15px 20px;
+	}
+	
+/*質問03*/	
+	
+#q03{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width:95%;
+    height: 80px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q03:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え03*/
+
+#a03 {
+width:95%;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a03:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a03:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#a03 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left: 10px;
+	}
+	
+#a03 ul li:nth-child(2){
+	padding:0px 20px 15px 20px;
+	}
+
+
+/*質問04*/
+
+#q04{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width:95%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q04:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え04*/
+
+#a04 {
+width:95%;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a04:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a04:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#a04 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left: 10px;
+	}
+	
+#a04 ul li:nth-child(2){
+	padding:0px 20px 15px 20px;
+	}
+	
+/*.mon01{
+	border-bottom: solid 1px #e60012;
+	}		 
+*/
+.mon02{
+	font-size:21px;
+	color:#e60012;
+	border-bottom:solid 3px #ff0000;
+	}
+
+/*質問05*/
+
+#q05{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width:95%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:30px;
+	
+
+}
+#q05:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+#gender_b{
+width:95%;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #00afab;
+border-radius:8px;
+position:relative;
+}
+#gender_b:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#gender_b:after {
+border:15px solid transparent;
+border-left-color:#00afab;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#gender_b ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:20px;
+	}
+	
+#gender_b ul li:nth-child(2){
+	padding:0px 20px 15px 20px;
+	}
+	
+
+#gender_g{
+width:95%;
+margin-top:50px;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #eb6877;
+border-radius:8px;
+position:relative;
+}
+#gender_g:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#gender_g:after {
+border:15px solid transparent;
+border-left-color:#eb6877;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#gender_g ul li:nth-child(1){
+	padding-top:10px;
+	padding-left: 10px;
+	}
+	
+#gender_g ul li:nth-child(2){
+	padding:0px 20px 15px 20px;
+	}
+
+
+/*柄行説明　男の子と女の子について*/
+
+#garayuki{
+	background-repeat:no-repeat;
+	background-position:top right;
+	padding-top:40px;
+	margin-top:20px;
+	}
+
+
+.gender01{
+	width:100px;
+	height:100px;
+	padding-right:20px;
+	float:left;
+	}
+	
+.gender02{
+	height:100px;
+	display:table-cell;
+	vertical-align:middle;
+	
+	}
+
+
+/*柄行きについて*/
+	
+.gara{
+	width:100%;
+	margin-top:30px;
+	float:left;
+	
+	}	
+.clearfix:before,
+.clearfix:after {
+ content:"";
+ display:block;
+ overflow:hidden;
+}
+ 
+.clearfix:after {
+ clear:both;
+}
+
+
+
+.green{
+	background-color:#bde0cc;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+	}
+	
+.pink{
+	background-color:#f8dedd;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+	}
+
+
+
+.gara ul li:nth-child(2){
+	font-size:18px;
+	width:100%;
+	line-height:50px;
+	margin:15px 0;
+	text-align:center;
+}
+
+.border{
+	margin:20px 0;
+	}
+/*柄行画像センター合わせ*/
+.gara li img {
+    display: block;
+    margin: 0 auto;
+}
+	
+
+}
+
+@media screen and (min-width:481px) and (max-width: 950px) {
+
+/*ヘッダメニュー部分*/
+	
+.menu-trigger::after {
+    position: absolute;
+    top: 24px!important;
+    content: 'MENU';
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all .4s;
+}
+.fa-envelope {
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 21px!important;
+}
+.fa-heart-o {
+    font-size: 21px!important;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+
+
+/*インフォ：質問項目*/
+
+a:link { color:#434343 !important; }	/*未訪問*/
+a:visited { color:#434343 !important; }/*訪問済*/
+a:hover {color:#cb6d6d !important; }/*ポイント時*/
+a:active {color:#434343 !important; }/*選択中*/
+
+a{
+	text-decoration:none;
+	}
+	
+		
+.info{
+	margin:0 auto;
+	margin-top:-30px;
+	margin-bottom:40px;
+	background-color:#f8dedd;
+	text-align:center;
+	}
+
+	
+/*産着の基礎知識*/
+
+
+.pop_q{
+       margin-bottom:20px;
+	}
+	
+	#main{
+    padding-top:50px;
+	background-image:url(../img/about_ubugi/bk_main02.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+	margin-top:-30px;
+	
+	}
+	
+/*質問01*/
+
+#q01{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 32%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q01:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え01*/
+
+#a01 {
+width:95%;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a01:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a01:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+}
+
+#a01 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a01 ul li:nth-child(2){
+	padding:0px 50px 20px 40px;
+	}
+
+
+/*質問02*/
+
+#q02{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 46%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q02:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+
+
+.back{
+	margin-top:-110px;
+	display: block;
+    margin-left: 500px;
+	}
+/*答え02*/
+
+#a02 {
+width:95%;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a02:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a02:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+}
+
+#a02 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a02 ul li:nth-child(2){
+	padding:0px 50px 20px 40px;
+	}
+	
+/*質問03*/	
+	
+#q03{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 68%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q03:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え03*/
+
+#a03 {
+width:95%;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a03:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a03:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#a03 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a03 ul li:nth-child(2){
+	padding:0px 50px 20px 40px;
+	}
+
+
+/*質問04*/
+
+#q04{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 48%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q04:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え04*/
+
+#a04 {
+width:95%;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a04:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a04:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#a04 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a04 ul li:nth-child(2){
+	padding:0px 50px 20px 40px;
+	}
+	
+/*.mon01{
+	border-bottom: solid 1px #e60012;
+	}		 
+*/
+.mon02{
+	font-size:21px;
+	color:#e60012;
+	border-bottom: double 6px #e60012;
+	}
+
+/*質問05*/
+
+#q05{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 50%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:30px;
+	
+
+}
+#q05:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+#gender_b{
+width:95%;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #00afab;
+border-radius:8px;
+position:relative;
+}
+#gender_b:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#gender_b:after {
+border:15px solid transparent;
+border-left-color:#00afab;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#gender_b ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:30px;
+	font-size: 16px;
+	}
+	
+#gender_b ul li:nth-child(2){
+	padding:0px 30px 20px 40px;
+	font-size: 16px;
+	}
+	
+
+#gender_g{
+width:95%;
+margin-top:50px;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #eb6877;
+border-radius:8px;
+position:relative;
+}
+	
+#gender_g:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#gender_g:after {
+border:15px solid transparent;
+border-left-color:#eb6877;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#gender_g ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:30px;
+	font-size: 16px;
+	}
+	
+#gender_g ul li:nth-child(2){
+	padding:0px 30px 20px 40px;
+	font-size: 16px;
+	}
+
+
+/*柄行説明　男の子と女の子について*/
+
+#garayuki{
+	background-image:url(../img/about_ubugi/bk_dog.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+	padding-top:40px;
+	margin-top:20px;
+	}
+
+
+.gender01{
+	width:100px;
+	height:100px;
+	padding-right:20px;
+	float:left;
+	}
+	
+.gender02{
+	height:100px;
+	display:table-cell;
+	vertical-align:middle;
+	
+	}
+
+
+/*柄行きについて*/
+	
+.gara{
+	width: 45%;
+    /* margin-top: 30px; */
+    margin: 20px 10px;
+    float: left;
+	
+	}	
+.clearfix:before,
+.clearfix:after {
+ content:"";
+ display:block;
+ overflow:hidden;
+}
+ 
+.clearfix:after {
+ clear:both;
+}
+
+
+
+.green{
+	background-color:#bde0cc;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+	}
+	
+.pink{
+	background-color:#f8dedd;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+	}
+
+
+
+.gara ul li:nth-child(2){
+	font-size:18px;
+	width:100%;
+	line-height:50px;
+	margin:15px 0;
+	text-align:center;
+}
+
+.border{
+	margin:20px 0;
+	}	
+/*柄行画像センター合わせ*/
+.gara li img {
+    display: block;
+    margin: 0 auto;
+}
+	
+}
+
+
+
+
+
+
+@media screen and (min-width:951px), print, tv {
+
+
+
+/*インフォ：質問項目*/
+
+a:link { color:#434343 !important; }	/*未訪問*/
+a:visited { color:#434343 !important; }/*訪問済*/
+a:hover {color:#cb6d6d !important; }/*ポイント時*/
+a:active {color:#434343 !important; }/*選択中*/
+
+a{
+	text-decoration:none;
+	}
+
+	
+.info{
+	margin:0 auto;
+	margin-top:-40px;
+	margin-bottom:40px;
+	background-color:#f8dedd;
+	font-size:13px;
+	text-align:center;
+	}
+	
+
+/*産着の基礎知識*/
+
+
+.pop_q{
+       margin-bottom:20px;
+	}
+	
+	#main{
+    padding-top:50px;
+	background-image:url(../img/about_ubugi/bk_main02.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+	margin-top:-20px;
+	}
+
+
+/*質問01*/
+
+#q01{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius:5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q01:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え01*/
+
+#a01 {
+width:910px;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a01:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a01:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+}
+
+#a01 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a01 ul li:nth-child(2){
+	padding:0px 50px 20px 50px;
+	}
+
+
+/*質問02*/
+
+#q02{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 350px;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q02:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+
+
+.back{
+	margin-top:-110px;
+	display: block;
+    margin-left: 550px;
+	}
+/*答え02*/
+
+#a02 {
+width:910px;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a02:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a02:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:180px;
+position:absolute;
+width:0;
+}
+
+#a02 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a02 ul li:nth-child(2){
+	padding:0px 50px 20px 50px;
+	}
+	
+/*質問03*/	
+	
+#q03{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 510px;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q03:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え03*/
+
+#a03 {
+width:910px;
+margin-left:10px;
+margin-bottom:50px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a03:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a03:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#a03 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a03 ul li:nth-child(2){
+	padding:0px 50px 20px 50px;
+	}
+
+
+/*質問04*/
+
+#q04{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 360px;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:15px;
+}
+#q04:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+/*答え04*/
+
+#a04 {
+width:910px;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #f8c8c8;
+border-radius:8px;
+position:relative;
+}
+ 
+#a04:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#a04:after {
+border:15px solid transparent;
+border-left-color:#f8c8c8;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#a04 ul li:nth-child(1){
+	padding-top:10px;
+	padding-left:10px;
+	}
+	
+#a04 ul li:nth-child(2){
+	padding:0px 50px 20px 50px;
+	}
+	
+/*.mon01{
+	border-bottom: solid 1px #e60012;
+	}		 
+*/
+.mon02{
+	font-size:21px;
+	color:#e60012;
+	border-bottom:solid 3px #ff0000;
+	}
+
+/*質問05*/
+
+#q05{
+    background: #F0E7E4;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+    dispay: inline-block;
+    position: relative;
+    width: 360px;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+	margin-bottom:30px;
+	
+
+}
+#q05:before {
+    content: "";
+    display: inline-block;
+    border: 10px solid transparent;
+    border-right-color: #F0E7E4;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -9px;
+}
+
+#gender_b{
+width:910px;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #00afab;
+border-radius:8px;
+position:relative;
+}
+#gender_b:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#gender_b:after {
+border:15px solid transparent;
+border-left-color:#00afab;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#gender_b ul li:nth-child(1){
+	padding-top:15px;
+	padding-left:40px;
+	}
+	
+#gender_b ul li:nth-child(2){
+	padding:0px 50px 15px 50px;
+	}
+	
+
+#gender_g{
+width:910px;
+margin-top:50px;
+margin-left:10px;
+background-color:#fff;
+border:5px solid #eb6877;
+border-radius:8px;
+position:relative;
+}
+#gender_g:before {
+border:15px solid transparent;
+border-left-color:#fff;
+border-right-width:0;
+right:-9px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+z-index:1;
+}
+ 
+#gender_g:after {
+border:15px solid transparent;
+border-left-color:#eb6877;
+border-right-width:0;
+right:-16px;
+content:"";
+display:block;
+top:100px;
+position:absolute;
+width:0;
+}
+
+#gender_g ul li:nth-child(1){
+	padding-top:15px;
+	padding-left:40px;
+	}
+	
+#gender_g ul li:nth-child(2){
+	padding:0px 50px 15px 50px;
+	}
+
+
+/*柄行説明　男の子と女の子について*/
+
+#garayuki{
+	background-image:url(../img/about_ubugi/bk_dog.jpg);
+	background-repeat:no-repeat;
+	background-position:top right;
+	padding-top:40px;
+	margin-top:20px;
+	}
+
+
+.gender01{
+	width:100px;
+	height:100px;
+	padding-right:20px;
+	float:left;
+	}
+	
+.gender02{
+	height:100px;
+	display:table-cell;
+	vertical-align:middle;
+	
+	}
+
+
+/*柄行きについて*/
+	
+.gara{
+	width:22%;
+	margin:30px 10px;
+	float:left;
+	}
+.gara img{
+    display: block;
+    margin: 0 auto;
+	}
+	
+.clearfix:before,
+.clearfix:after {
+ content:"";
+ display:block;
+ overflow:hidden;
+}
+ 
+.clearfix:after {
+ clear:both;
+}
+
+
+
+.green{
+	background-color:#bde0cc;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+	}
+	
+.pink{
+	background-color:#f8dedd;
+	background-image: url(../img/about_ubugi/ubugi_bg03.png);
+	}
+
+
+
+.gara ul li:nth-child(2){
+	font-size:18px;
+	width:100%;
+	line-height:50px;
+	margin:15px 0;
+	text-align:center;
+}
+
+.border{
+	margin:20px 0;
+	}
+
+
+}

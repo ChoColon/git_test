@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+	p,ul,img {
+		margin:0;
+		padding:0;
+	}
+	
+	h2 {
+		color:#666;
+		font-size:24pt;
+		font-weight:bold;
+	}
+	
+	.wf-sawarabigothic { 
+		font-family: "Sawarabi Gothic";
+	}
+	
+	.fl {
+		float:left;
+	}
+	
+	
+	.fr {
+		float:right;
+	}
+	
+	
+	.fl70 {
+		float:left;
+		width:85%;
+	}
+	
+
+	.fr30 {
+		float:right;
+		width:15%;
+	}
+
+	
+	.caution {
+		color:#FF3366;
+	}
+
+
+	.right {
+	text-align:right;
+	}
+	
+
+	.c_small {
+	font-size:90%
+	}
+
+
+	.c_attention2 {
+	color:#F36;
+	}
+	
+
+.left_box {
+		float:left;
+		width:50%;
+		padding-right:0.5em;
+	}
+	
+	.right_box {
+		float:left;
+		width:50%;
+	}
+	
+	.subtitle {
+		font-size:70%;
+	}
+	
+	.ojigi {
+		margin:0 20px 0 0;
+	}
+	
+	h2 {
+		line-height:1.2em;
+}
+.info_text03{
+		width: 98%;
+    	display: block;
+    	margin: 0 auto;
+    	padding: 0 10px 10px 0;
+    	line-height: 30px;
+	}
+
+.underline {
+  background: -webkit-linear-gradient(transparent 60%, #FFC0D0 60%);
+  background: -o-linear-gradient(transparent 60%,#FFC0D0 60%);
+  background: linear-gradient(transparent 60%, #FFC0D0 60%);
+}
+
+@media screen and (max-width:480px), print, tv {
+/*------------------------------------------- 
+article02部分
+------------------------------------------- */
+
+/*-- キャンペーン部分--*/
+
+.c_can {
+    width: 100%;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px;
+    margin-top: 15px;
+}
+
+	#box_aside_banner img {
+    display: block;
+    float: left;
+    width: 47%;
+    margin: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}
+	
+/*画像下解説テキスト
+------------------------------------------- */
+	.info_text01{
+		width: 95%;
+    	display: block;
+    	padding: 0 10px 40px 0;
+    	line-height: 27px;
+    	margin: 0 auto;
+		font-size: 15px;
+    	font-weight: 400;
+	}
+	.info_text02{
+		width: 96%;
+    	display: block;
+    	padding: 0 10px 10px 0;
+    	line-height: 25px;
+    	margin: 0 auto;
+		font-size: 15px;
+    	font-weight: 400;
+	}
+	.info_text03{
+		width: 98%;
+    	display: block;
+    	margin: 0 auto;
+    	padding: 0 10px 10px 0;
+    	line-height: 22px;
+    	font-size: 14px;
+	}
+	
+	.underline {
+  background: -webkit-linear-gradient(transparent 60%, #FFC0D0 60%);
+  background: -o-linear-gradient(transparent 60%,#FFC0D0 60%);
+  background: linear-gradient(transparent 60%, #FFC0D0 60%);
+	}
+}
+
+@media screen and (min-width:481px) and (max-width: 950px) {
+/*------------------------------------------- 
+article02部分
+------------------------------------------- */
+
+/*-- キャンペーン部分--*/
+
+.c_can {
+    width: 100%;
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px;
+    margin-top: 15px;
+}
+
+#box_aside_banner img {
+    display: block;
+    float: left;
+    width: 47%;
+    margin: 1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #999999;
+}
+
+/*page-topボタン*/	
+	#page-top {
+		font-family: FontAwesome;
+		font-size: 30px;
+		text-align: center;
+		position: fixed;
+		bottom: 24px;
+		right: 3px;
+		z-index: 2;
+		display: block;
+		background-color: #888888;
+		width: 60px;
+		height: 60px;
+		border-radius: 5px;
+		padding: 15px 0 0 1px;
+		opacity: 0.7;
+}
+	
+	#page-top a:hover {
+		text-decoration: none;
+	}
+	#page-top .btn_size {
+    width: 85%;
+	}
+	#page-top a:link{
+	color: #fff!important;
+	}
+	
+/*画像下解説テキスト
+------------------------------------------- */
+	.info_text01{
+		width: 95%;
+    	display: block;
+    	padding: 0 10px 40px 0;
+    	line-height: 27px;
+    	margin: 0 auto;
+		font-size: 15px;
+    	font-weight: 400;
+	}
+	.info_text02{
+		width: 96%;
+    	display: block;
+    	padding: 0 10px 10px 0;
+    	line-height: 25px;
+    	margin: 0 auto;
+		font-size: 15px;
+    	font-weight: 400;
+	}
+	.info_text03{
+		width: 98%;
+    	display: block;
+    	margin: 0 auto;
+    	padding: 0 10px 35px 0;
+    	line-height: 30px;
+	}
+	
+	.underline {
+  background: -webkit-linear-gradient(transparent 60%, #FFC0D0 60%);
+  background: -o-linear-gradient(transparent 60%,#FFC0D0 60%);
+  background: linear-gradient(transparent 60%, #FFC0D0 60%);
+	}
+
+/*------------------------------------------- 
+article02部分　ここまで
+------------------------------------------- */
+}
+
+@media screen and (min-width:951px), print, tv {
+	
+	
+	.info_text02{
+		width: 950px;
+    	display: block;
+    	position: relative;
+    	z-index: 1;
+    	margin: 0 auto;
+    	padding: 0 0 60px 40px;
+    	line-height: 25px;
+	}
+	.space{
+		margin-top: 30px;
+	}
+	
+
+
+/*------------------------------------------- 
+article02部分
+------------------------------------------- */	
+
+	/*キャンペーン部分
+	------------------------------------------- */
+	.c_can {
+		width: 100%;
+		border-style: solid;
+		border-color: #999999;
+		border-width: 1px;
+		margin-top: 40px;
+	}
+	/*サイドバー右寄せ
+	------------------------------------------- */
+	#box_aside {
+    width: 180px;
+    float: right!important;
+	margin-top: 0!important;
+}
+	#box_aside_otherservice {
+    margin: 0;
+}
+	
+	#box_article02 {
+    width: 740px;
+    float: left!important;
+	margin-top: 0!important;
+}
+	#box_article01 {
+    width: 100%;
+	border-bottom-color: #999999;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+	
+	
+	/*pagetopボタン
+	------------------------------------------- */
+	#page-top {
+    font-family: FontAwesome;
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    bottom: 24px;
+    right: 3px;
+    z-index: 3;
+    display: block;
+    background-color: #888888;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 14px 0 0 0;
+    color: #000000 !important;
+    opacity: 0.7;
+}
+	
+	#page-top a:hover {
+		text-decoration: none;
+	}
+	#page-top a:link{
+	color: #fff!important;
+	}
+/*------------------------------------------- 
+article02部分　ここまで
+------------------------------------------- */	
+}
+
+		

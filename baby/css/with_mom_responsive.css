@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+#main *
+{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+ul.c_attention_list li
+{
+	margin-left:1.5em;
+}
+
+ul.c_attention_list li:before
+{
+	content:"※ ";
+	margin-left:-1.5em;
+}
+
+ul.c_attention_list ul li:before
+{
+	content:"・";
+	margin-left:-1em;
+}
+
+.c_attention
+{
+	color:#FF000F;
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) 
+{
+	#box_article02
+	{
+		margin:0.5em 0 1em 0;
+	}
+	
+	#main ul
+	{
+		margin:1em 0 1em 0;
+	}
+	
+	#obj_box
+	{
+		background:url(../img/with_mom/top_image.jpg) no-repeat top;
+		background-size:contain;
+		clear:both;
+		position:relative;
+		padding:100px 0 0 0;
+	}
+
+	#obj_top_text
+	{
+		width:100%;
+		background-image:url(../../img/common_nationwide/semiwhite.png);
+		margin-top:4.5rem;
+		padding-top:1rem;
+	}
+	
+	#obj_top_text span,#obj_top_text ul
+	{
+		color:#DC0408;
+	}
+	
+	#obj_top_text ul
+	{
+		font-size:1em;
+	}
+	
+	#obj_howto
+	{
+		background:url(../../img/common_nationwide/semiwhite.png);
+	}
+	
+	#obj_howto_text
+	{
+		margin:1em;
+	}
+	
+	#obj_howto table
+	{
+		margin:0;
+		width:100%;
+		max-width:100%;
+		position:relative;
+		table-layout:fixed;
+	}
+	
+	#obj_howto th
+	{
+		width:15%;
+		text-align:center;
+		position:relative;
+	}
+	#obj_howto th img
+	{
+		max-width:100%;
+	}
+	
+	#obj_th_jr
+	{
+		background:#E80012;
+		vertical-align:top;
+	}
+	
+	#obj_howto tr
+	{
+		border-bottom:solid 4px #FFFFFF;
+	}
+	
+	#obj_th_mom
+	{
+		background:#6868B0;
+		vertical-align:top;
+	}
+	
+	#obj_howto td
+	{
+		width:85%;
+		padding:0.5em 0.5em 0.5em 1em;
+		margin-bottom:10px;
+	}
+	
+	#obj_howto dt
+	{
+		margin-top:0.5em;
+	}
+	
+	#obj_howto dd
+	{
+		padding:0.3em 0 0 2.5em;
+		font-size:90%;
+	}
+	
+	#obj_howto ul
+	{
+		color:#FF5982;
+	}
+
+} 
+
+@media screen and (min-width:481px) and (max-width: 950px) 
+{
+	#main ul
+	{
+		margin:1em 0 1em 0;
+	}
+	
+	#obj_box
+	{
+		background:url(../img/with_mom/top_image.jpg) no-repeat top;
+		background-size:contain;
+		clear:both;
+		position:relative;
+		padding-top:30%;
+		}
+	
+
+	#obj_top_text
+	{
+		width:50%;
+		padding:1em;
+		background:url(../../img/common_nationwide/semiwhite.png);
+	}
+	
+	#obj_top_text span,#obj_top_text ul
+	{
+		color:#DC0408;
+	}
+	
+	#obj_top_text ul
+	{
+		font-size:13px;
+	}
+	
+	#obj_howto
+	{
+		background:url(../../img/common_nationwide/semiwhite.png);
+	}
+	
+	#obj_howto_text
+	{
+		margin:1em;
+	}
+	
+	#obj_howto table
+	{
+		margin:1em;
+	}
+	
+	#obj_howto th
+	{
+		width:37px;
+	}
+	
+	#obj_th_jr
+	{
+		background:#E80012;
+		width:37px;
+		vertical-align:top;
+	}
+	
+	#obj_howto tr
+	{
+		display:block;
+		margin-bottom:10px;
+	}
+	
+	#obj_th_mom
+	{
+		background:#6868B0;
+		width:37px;
+		vertical-align:top;
+	}
+	
+	#obj_howto td
+	{
+		padding:0.5em 0.5em 0.5em 1em;
+	}
+	
+	#obj_howto dt
+	{
+		margin-top:0.5em;
+	}
+	
+	#obj_howto dd
+	{
+		padding:0.3em 0 0 2.5em;
+		font-size:90%;
+	}
+	
+	#obj_howto ul
+	{
+		color:#FF5982;
+	}
+
+}
+
+@media screen and (min-width:951px), print, tv
+{
+	#box_article02
+	{
+		margin:1em 0 1em 0;
+	}	
+	
+	#main ul
+	{
+		margin:1em 0 1em 0;
+	}
+	
+	#obj_box
+	{
+		background:url(../img/with_mom/top_image.jpg) no-repeat top;
+		clear:both;
+		position:relative
+	}
+	
+
+	#obj_top_text
+	{
+		padding-top:250px;
+		width:50%;
+		font-size:20px;
+	}
+	
+	#obj_top_text span,#obj_top_text ul
+	{
+		color:#DC0408;
+	}
+	
+	#obj_top_text ul
+	{
+		font-size:1em;
+	}
+	
+	#obj_howto
+	{
+		background:url(../../img/common_nationwide/semiwhite.png);
+	}
+	
+	#obj_howto_text
+	{
+		margin:1em;
+		background:url(../../img/common_nationwide/mail_image.jpg) no-repeat top left;
+		padding:0 0 0 130px;
+	}
+	
+	#obj_howto table
+	{
+		margin:1em;
+	}
+	
+	#obj_howto th
+	{
+		width:37px;
+	}
+	
+	#obj_th_jr
+	{
+		background:#E80012;
+		width:37px;
+		vertical-align:top;
+	}
+	
+	#obj_howto tr
+	{
+		display:block;
+		margin-bottom:10px;
+	}
+	
+	#obj_th_mom
+	{
+		background:#6868B0;
+		width:37px;
+		vertical-align:top;
+	}
+	
+	#obj_howto td
+	{
+		padding:0.5em 0.5em 0.5em 1em;
+	}
+	
+	#obj_howto dt
+	{
+		margin-top:0.5em;
+	}
+	
+	#obj_howto dd
+	{
+		padding:0.3em 0 0 2.5em;
+		font-size:90%;
+	}
+	
+	#obj_howto ul
+	{
+		color:#FF5982;
+	}
+	#obj_header_guide_box {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+	#obj_header_guide_box img {
+    display: block;
+    float: left;
+    margin: 0;
+}
+}
